@@ -26,14 +26,14 @@
 # The Challenge
 
 In the world of a 2D grid. Calculate the coordinates that are visitable by a robot starting on (0,0) that can move horizontally or vertically one position at a time. 
-This is in a world where every coordinate pair whose combined individual absolute digits adds up to a sum greater than 23 has a mine on it, so (96, -69) comes to 9+6+6+9=30 definitely mined. 
+In a world where every coordinate pair whose combined individual absolute digits add up to a sum greater than 23 has a mine on it, so (96, -69) comes to 9+6+6+9=30 definitely mined. 
 
 
 Write the following Functions;
 
 boolean isSafe(int x, int y)
 
-Determines whether a given coordinate (x, y) is safe for the robot to visit.
+Determines whether a given coordinate (x, y) is safe for the robot to visit, assuming the robot starts at (0,0)
 Parameters:
 x (integer): The x-coordinate of the position being checked.
 y (integer): The y-coordinate of the position being checked.
@@ -45,7 +45,7 @@ false if the coordinate (x, y) is mined (the sum of its individual absolute digi
 
 int totalSafeSquares()
 
-Calculates the total number of safe squares in the 2D grid, considering the mine placement rules.
+Calculates the total number of safe squares in the 2D grid, that the robot can reach from (0,0), considering the mine placement rules
 Returns:
 The count of safe squares in the 2D grid.
 
@@ -56,7 +56,7 @@ This should only be completed upon successfully completing the previous 2 functi
 int shortestSafeJourney (int a, int b, int x, int y)
 
 Calculates the length of the shortest safe journey from the starting position (a, b) to the destination position (x, y).
-
+git 
 Parameters:
 a (integer): The x-coordinate of the start position.
 b (integer): The y-coordinate of the start position.
@@ -65,12 +65,3 @@ y (integer): The y-coordinate of the destination position.
 Returns:
 The length of the shortest safe journey from (a, b) to (x, y) if a safe path exists. -1 if there is no safe path from (a, b) to (x, y) 
 
-Update the program to work with the following scenario.
-On the Grid mines are found;
-
-when combined individual absolute digits are; 
-23 exactly
-99 exactly
-420 exactly
-greater than 666
-When a single coordinate(x,y) contains a sequence of 3 ascending numbers e.g 23,37 or -123, 12 (note 321,0 or 54,32 are clear) 
