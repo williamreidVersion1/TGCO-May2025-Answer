@@ -50,8 +50,8 @@ Returns:
 The count of safe squares in the 2D grid.
 
 
-### Extention task
-This should only be completed upon sucessfully completing the previous 2 functions
+### Extension task
+This should only be completed upon successfully completing the previous 2 functions
 
 int shortestSafeJourney (int a, int b, int x, int y)
 
@@ -65,3 +65,12 @@ y (integer): The y-coordinate of the destination position.
 Returns:
 The length of the shortest safe journey from (a, b) to (x, y) if a safe path exists. -1 if there is no safe path from (a, b) to (x, y) 
 
+Update the program to work with the following scenario.
+On the Grid mines are found;
+
+when combined individual absolute digits are; 
+23 exactly
+99 exactly
+420 exactly
+greater than 666
+When a single coordinate(x,y) contains a sequence of 3 ascending numbers e.g 23,37 or -123, 12 (note 321,0 or 54,32 are clear) 
