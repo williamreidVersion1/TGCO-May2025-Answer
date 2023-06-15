@@ -26,14 +26,14 @@
 # The Challenge
 
 In the world of a 2D grid. Calculate the coordinates that are visitable by a robot starting on (0,0) that can move horizontally or vertically one position at a time. 
-This is in a world where every coordinate pair whose combined individual absolute digits adds up to a sum greater than 23 has a mine on it, so (96, -69) comes to 9+6+6+9=30 definitely mined. 
+In a world where every coordinate pair whose combined individual absolute digits add up to a sum greater than 23 has a mine on it, so (96, -69) comes to 9+6+6+9=30 definitely mined. 
 
 
 Write the following Functions;
 
 boolean isSafe(int x, int y)
 
-Determines whether a given coordinate (x, y) is safe for the robot to visit.
+Determines whether a given coordinate (x, y) is safe for the robot to visit, assuming the robot starts at (0,0)
 Parameters:
 x (integer): The x-coordinate of the position being checked.
 y (integer): The y-coordinate of the position being checked.
@@ -45,13 +45,13 @@ false if the coordinate (x, y) is mined (the sum of its individual absolute digi
 
 int totalSafeSquares()
 
-Calculates the total number of safe squares in the 2D grid, considering the mine placement rules.
+Calculates the total number of safe squares in the 2D grid, that the robot can reach from (0,0), considering the mine placement rules
 Returns:
 The count of safe squares in the 2D grid.
 
 
 ### Extention task
-This should only be completed upon sucessfully completing the previous 2 functions
+This should only be completed upon successfully completing the previous 2 functions
 
 int shortestSafeJourney (int a, int b, int x, int y)
 
