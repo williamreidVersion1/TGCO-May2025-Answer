@@ -20,7 +20,19 @@
 
 •	After all teams have showed the Judges will pick a winner.
 
-•	The use of the internet to look up syntax/language features is allowed. However, the use of chatCPT/AI tools to produce the whole solution is not in sprint of the competition. 
+•	The use of the internet to look up syntax/language features is allowed. However, the use of chatCPT/AI tools to produce the whole solution is not in sprint of the competition.
+
+# Judging Cretia
+
+•   Does the solution produce the right answer (this is most important)
+
+•   The Presentation, including how well teams explain their code.
+
+•   Code Quality
+
+•   Testing Quality
+
+•   Scores will be weighted based on the teams overall experience level (i.e. a team of 4 associates will be scored more favourably than a team of 4 seniors)
 
 
 # The Challenge
