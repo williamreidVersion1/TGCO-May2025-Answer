@@ -8,8 +8,6 @@
 
 •	Teams are encouraged to let the more junior members write the code with seniors guiding.  
 
-•	You should create a branch with your team’s name.
-
 •	After submissions, teams will have 3 mins to present their solutions, 
 
 •	Presentations should include showing the working solutions and talking about the coding choices teams made, including why things have been done a certain way.
