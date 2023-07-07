@@ -2,11 +2,11 @@
 
 •	Teams of 3-4 will have 75mins to solve the problem.
 
+•	Teams should fork the repo, and submit their solutions in their own repo by the deadline
+
 •	The solution should be in Java, there are no other restrictions.
 
 •	Teams are encouraged to let the more junior members write the code with seniors guiding.  
-
-•	All code must be submitted to the git repo by the deadline.
 
 •	You should create a branch with your team’s name.
 
