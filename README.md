@@ -1,8 +1,8 @@
 # The-Great-Java-Code-Off
 
-•	Teams of 4 will have 75mins to solve the problem.
+•	Teams of 3-4 will have 75mins to solve the problem.
 
-•	The solution should be in Java, there is no restrictions on which library can be used.
+•	The solution should be in Java, there are no other restrictions.
 
 •	Teams are encouraged to let the more junior members write the code with seniors guiding.  
 
@@ -12,15 +12,15 @@
 
 •	After submissions, teams will have 3 mins to present their solutions, 
 
-•	Presentations should include showing the working solutions, and talking about the coding choices teams made, including why things have been done a certain way.
+•	Presentations should include showing the working solutions and talking about the coding choices teams made, including why things have been done a certain way.
 
 •	Judges will get 3mins to ask questions if they feel is necessary.
 
 •	Teams will be assigned presentation slots in a random order.
 
-•	After all teams have showed the Judges will pick a winner.
+•	After all teams have presented the Judges will pick a winner.
 
-•	The use of the internet to look up syntax/language features is allowed. However, the use of chatCPT/AI tools to produce the whole solution is not in sprint of the competition.
+•	The use of the internet to look up syntax/language features is allowed. However, the use of ChatCPT/AI tools to produce the whole solution is not in the spirit of the competition.
 
 # Judging Cretia
 
@@ -32,7 +32,7 @@
 
 •   Testing Quality
 
-•   Scores will be weighted based on the teams overall experience level (i.e. a team of 4 associates will be scored more favourably than a team of 4 seniors)
+•   Scores will be weighted based on the teams' overall experience level (i.e. a team of 4 associates will be scored more favorably than a team of 4 seniors)
 
 
 # The Challenge
