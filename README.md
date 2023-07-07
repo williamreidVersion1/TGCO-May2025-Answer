@@ -22,7 +22,7 @@
 
 •	The use of the internet to look up syntax/language features is allowed. However, the use of ChatCPT/AI tools to produce the whole solution is not in the spirit of the competition.
 
-# Judging Cretia
+# Judging Criteria
 
 •   Does the solution produce the right answer (this is most important)
 
