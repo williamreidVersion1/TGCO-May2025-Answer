@@ -1,77 +1,93 @@
-# The-Great-Java-Code-Off
 
-•	Teams of 3-4 will have 75mins to solve the problem.
+# 🧩 The Great Code Off: Safe Coordinates Challenge (Digit Product Edition)
 
-•	Teams should fork the repo, and submit their solutions in their own repo by the deadline
+In a 2D grid world, a robot starts at coordinate (0, 0) and can move **only horizontally or vertically** one square at a time.
 
-•	The solution should be in Java, there are no other restrictions.
+However, the world is dangerous:  
+**any coordinate where the sum of the digits of the product of the x and y values is equal to or greater than 19 is mined.**
 
-•	Teams are encouraged to let the more junior members write the code with seniors guiding.  
+### For example:
+- (3, 4) → 3×4 = 12 → 1+2 = 3 → ✅ Safe  
+- (6, 9) → 6×9 = 54 → 5+4 = 9 → ✅ Safe  
+- (96, -69) → 96×69 = 6624 → 6+6+2+4 = 18 → ✅ Safe  
+- (67, 43) → 67×43 = 2881 → 2+8+8+1 = 19 → 💣 Mined ← Edge case  
+- (123, 456) → 123×456 = 56088 → 5+6+0+8+8 = 27 → 💣 Mined  
 
-•	After submissions, teams will have 3 mins to present their solutions, 
+---
 
-•	Presentations should include showing the working solutions and talking about the coding choices teams made, including why things have been done a certain way.
+## 🧠 Functions to Implement
 
-•	Judges will get 3mins to ask questions if they feel is necessary.
+### `boolean isSafe(int x, int y)`
+Checks if a coordinate is safe to visit.
 
-•	Teams will be assigned presentation slots in a random order.
+**Parameters:**
+- `x` (int): x-coordinate  
+- `y` (int): y-coordinate  
 
-•	After all teams have presented the Judges will pick a winner.
+**Returns:**
+- `true` if the sum of the digits of (x × y) is < 19  
+- `false` otherwise
 
-•	The use of the internet to look up syntax/language features is allowed. However, the use of ChatCPT/AI tools to produce the whole solution is not in the spirit of the competition.
+---
 
-# Judging Criteria
+### `int totalSafeSquares()`
+Calculates the total number of safe squares the robot can reach from (0, 0), using only horizontal and vertical moves.
 
-•   Does the solution produce the right answer (this is most important)
+**Returns:**
+- The number of reachable safe squares
 
-•   The Presentation, including how well teams explain their code.
+---
 
-•   Code Quality
+### `int shortestSafeJourney(int a, int b, int x, int y)` _(Extension Task)_
+Finds the shortest safe path from (a, b) to (x, y), if one exists.
 
-•   Testing Quality
+**Parameters:**
+- `a`, `b`: starting coordinates  
+- `x`, `y`: destination coordinates  
 
-•   Scores will be weighted based on the teams' overall experience level (i.e. a team of 4 associates will be scored more favorably than a team of 4 seniors)
+**Returns:**
+- The number of steps in the shortest safe path  
+- `-1` if no safe path exists
 
+---
 
-# The Challenge
+## 🏆 Prizes
 
-In the world of a 2D grid. Calculate the coordinates that are visitable by a robot starting on (0,0) that can move horizontally or vertically one position at a time. 
-In a world where every coordinate pair whose combined individual absolute digits add up to a sum greater than 23 has a mine on it, so (96, -69) comes to 9+6+6+9=30 definitely mined. 
+There are **two prizes** available:
 
+### 🥇 Fastest Correct Answer
+Awarded to the team that submits a correct and efficient solution to `totalSafeSquares()` in the shortest time.
 
-Write the following Functions;
+**Why we should win this prize:**  
+_(Team to complete)_
 
-boolean isSafe(int x, int y)
+---
 
-Determines whether a given coordinate (x, y) is safe for the robot to visit, assuming the robot starts at (0,0)
-Parameters:
-x (integer): The x-coordinate of the position being checked.
-y (integer): The y-coordinate of the position being checked.
+### 🧠 Most Unique Solution
+Awarded to the team with the most creative, elegant, or unconventional approach to solving `shortestSafeJourney()`.
 
-Returns:
-true if the coordinate (x, y) is safe to visit (the sum of its individual absolute digits is less than or equal to 23).
-false if the coordinate (x, y) is mined (the sum of its individual absolute digits is greater than 23).
+**Why we should win this prize:**  
+_(Team to complete)_
 
+---
 
-int totalSafeSquares()
+## ✍️ Team Write-Up
 
-Calculates the total number of safe squares in the 2D grid, that the robot can reach from (0,0), considering the mine placement rules
-Returns:
-The count of safe squares in the 2D grid.
+**Team Name:**  
+**Team Members:**  
 
+**Approach Summary:**  
+_(Explain your algorithm, any optimizations, creative ideas, or fun twists you added!)_
 
-### Extension task
-This should only be completed upon successfully completing the previous 2 functions
+---
 
-int shortestSafeJourney (int a, int b, int x, int y)
+## 📬 Submission Instructions
 
-Calculates the length of the shortest safe journey from the starting position (a, b) to the destination position (x, y).
-git 
-Parameters:
-a (integer): The x-coordinate of the start position.
-b (integer): The y-coordinate of the start position.
-x (integer): The x-coordinate of the destination position.
-y (integer): The y-coordinate of the destination position.
-Returns:
-The length of the shortest safe journey from (a, b) to (x, y) if a safe path exists. -1 if there is no safe path from (a, b) to (x, y) 
+1. **Fork the official challenge repository.**  
+2. Add your solution and team write-up to your fork.  
+3. **Before the deadline, share your forked repository with the judges** (via pull request or direct link).  
+4. Ensure your code is well-documented and easy to run.
 
+---
+
+Let me know if you'd like this saved as a file or if you want help creating a starter repo!  
