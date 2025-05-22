@@ -1,0 +1,14 @@
+C:\Users\BorahS\Desktop\Codeoff\bin\Debug\net8.0\Codeoff.exe
+C:\Users\BorahS\Desktop\Codeoff\bin\Debug\net8.0\Codeoff.deps.json
+C:\Users\BorahS\Desktop\Codeoff\bin\Debug\net8.0\Codeoff.runtimeconfig.json
+C:\Users\BorahS\Desktop\Codeoff\bin\Debug\net8.0\Codeoff.dll
+C:\Users\BorahS\Desktop\Codeoff\bin\Debug\net8.0\Codeoff.pdb
+C:\Users\BorahS\Desktop\Codeoff\obj\Debug\net8.0\Codeoff.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BorahS\Desktop\Codeoff\obj\Debug\net8.0\Codeoff.AssemblyInfoInputs.cache
+C:\Users\BorahS\Desktop\Codeoff\obj\Debug\net8.0\Codeoff.AssemblyInfo.cs
+C:\Users\BorahS\Desktop\Codeoff\obj\Debug\net8.0\Codeoff.csproj.CoreCompileInputs.cache
+C:\Users\BorahS\Desktop\Codeoff\obj\Debug\net8.0\Codeoff.dll
+C:\Users\BorahS\Desktop\Codeoff\obj\Debug\net8.0\refint\Codeoff.dll
+C:\Users\BorahS\Desktop\Codeoff\obj\Debug\net8.0\Codeoff.pdb
+C:\Users\BorahS\Desktop\Codeoff\obj\Debug\net8.0\Codeoff.genruntimeconfig.cache
+C:\Users\BorahS\Desktop\Codeoff\obj\Debug\net8.0\ref\Codeoff.dll
