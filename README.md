@@ -1,5 +1,5 @@
 
-# 🧩 The Great Code Off: Safe Coordinates Challenge (Digit Product Edition)
+# 🧩 The Great Code Off: Safe Coordinates Challenge
 
 In a 2D grid world, a robot starts at coordinate (0, 0) and can move **only horizontally or vertically** one square at a time.
 
@@ -10,7 +10,7 @@ However, the world is dangerous: 
 - (3, 4) → 3×4 = 12 → 1+2 = 3 → ✅ Safe  
 - (6, 9) → 6×9 = 54 → 5+4 = 9 → ✅ Safe  
 - (96, -69) → 96×69 = 6624 → 6+6+2+4 = 18 → ✅ Safe  
-- (67, 43) → 67×43 = 2881 → 2+8+8+1 = 19 → 💣 Mined ← Edge case  
+- (67, 43) → 67×43 = 2881 → 2+8+8+1 = 19 → 💣 Mined
 - (123, 456) → 123×456 = 56088 → 5+6+0+8+8 = 27 → 💣 Mined  
 
 ---
@@ -85,9 +85,9 @@ _(Explain your algorithm, any optimizations, creative ideas, or fun twists you a
 
 1. **Fork the official challenge repository.**  
 2. Add your solution and team write-up to your fork.  
-3. **Before the deadline, share your forked repository with the judges** (via pull request or direct link).  
+3. **Before the deadline, share your forked repository with the judges**
 4. Ensure your code is well-documented and easy to run.
+5. answer form for totalSafeSquares: https://forms.office.com/e/T90mYcnF1r
+6. feedback from: https://forms.office.com/e/ewqSbUq593
 
 ---
-
-Let me know if you'd like this saved as a file or if you want help creating a starter repo!  
