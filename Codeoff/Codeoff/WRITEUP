@@ -1,0 +1,32 @@
+Instructions
+
+Open solution in VS Code and run to get answer to 
+1) Total safe squares
+2) shortestsafejourney
+
+alternatively, copy from program.cs into an online compiler such as: 
+https://www.programiz.com/csharp-programming/online-compiler/
+
+
+Write up
+
+1. TotalSafeSquares()
+To count all reachable safe squares, the program uses a BFS approach:
+Start from (0, 0) and explore adjacent squares in all four directions (up, down, left, right) in boundary -9999 to 9999
+Only move to a square if it is within the grid bounds, has not been visited, and is marked as safe.
+We used a HashSet to track visited positions to avoid revisiting and infinite loops.
+This function returns the total number of safe squares that can be reached starting from (0, 0).
+
+
+2. StepsToMineSurrounded()
+This function searches for the nearest square that is surrounded by unsafe squares on possible future steps, ignoring the route it just came. 
+Each step tracks the current position, the number of steps taken, and the previous position to avoid backtracking.
+For each square, it checks all four neighboring positions.
+If all neighbors (excluding the previous cell) are unsafe, the current square is considered surrounded by mines.
+When such a position is found, the function returns the number of steps taken to reach it, along with its coordinates.
+BFS ensures that the shortest path is always found.
+Using a HashSet for visited positions keeps the algorithm efficient and prevents unnecessary work.
+The check for being surrounded by mines is a creative way to simulate a dead-end or trap in a maze.
+
+
+
